@@ -14,7 +14,7 @@ Branches, also called feature branches, make a copy of the main code which resid
 It is a bad practice to push directly to the "master" branch when working in teams. An exception for this rule us the first commit.
 In a branch you can make one or more commits as usual, these reflect the changes to add a certain part of the code. 
 To make a new branch you can do the following using Git
-```sh
+```console
 $ git branch [branch name]
 ```
 The branch name should contain the part you plan to add, as well as your name so you have no conflicts with your teammates.
@@ -22,7 +22,7 @@ A name for example could be `maartje-add-contact-page`, note that branch names c
 
 Creating branches is done using `git branch`. After creating the branch you have to switch to using that branch.
 This can be done using `git checkout`.
-```sh
+```console
 $ git checkout [branch name]
 ```
 This command will change your files on your hard disk to reflect those in the branch.
@@ -32,7 +32,7 @@ You can use `git push` when on a branch to push the branch to GitHub
 // TODO: confirm you need --set-upstream
 
 A full workflow for example would be
-```
+```console
 $ git branch maartje-add-contact-page
 $ git checkout maartje-add-contact-page
 $ touch contact.html # Example change!!! not part of the workflow
