@@ -88,7 +88,7 @@ After posting a review you will see the status in the PR. Under "Reviewers" on t
 
 **TIP:** When writing a comment you can press the "Suggestion" button in the toolbar. This allows you do do a quick one line code change suggestion that can be applied in a single click.
 
-![suggestion edit view](./images/corerev4.png)
+![suggestion edit view](./images/coderev4.png)
 
 ### The life after code review
 If you need to make changes in your code after a code review you can just do this on your Git branch! Just make another commit and you will see the changes appear in the PR, you will also notice that GitHub marks comments on changed lines so you can better see which comments were addressed.
