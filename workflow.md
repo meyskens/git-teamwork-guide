@@ -50,3 +50,29 @@ After these are set to the correct GitHub will show you the changes and you can 
 You will now be sent to a screen where you can add a title and a description, when working in Git you will often make pull requests to other people's projects. This is why it is always a good practice to add a useful title and description of what you want to change and why. When this is done do not forget to click "Create" again.
 
 ## Code Review
+Code review is a process that you can see everywhere, from small startups to big enterprises. How to properly do one is also a very discussed topic. When asking on [Twitter](https://twitter.com/MaartjeME/status/1208048751631327237) for code review tips many programmers had different opinions on this.  
+Code review in a nutshell is the process between proposing a code change (in a PR) and it being merged into the master branch, and deployed into production.
+This process allows for code to improve as more people can look at it and propose changes to the code. Bugs are spotted faster, the code will look better and more coherent and it might give you insight into how your code might be even more improved.
+
+Code reviews are an opportunity to learn for the submitter of the PR but also an oppurtinity to praise one's work for the reviewer. Important to keep in mind is to be kind to eachother, not to take reviews personally and to start with explaining why. A code review is inherently teamwork, touching on different ideas and suggestions. Sometimes it might be worth taking a discussion offline (meaning face to face) to discuss some comments. The goal here is not to be right about something but to improve as a team.
+
+### The 10 Commandments of Navigating Code Reviews
+[The 10 Commandments of Navigating Code Reviews](https://techbeacon.com/app-dev-testing/10-commandments-navigating-code-reviews) is a work of [Angie Jones](https://angiejones.tech).
+In this she discusses 10 rules to follow when doing code review. 
+```
+I. Thou Shalt Not Take It Personally
+II. Thou Shalt Not Marry the Code
+III. Thou Shalt Consider All Feedback
+IV. Thou Shalt Articulate Your Rationale
+V. Thou Shalt Be Willing to Compromise
+VI. Thou Shalt Contribute to Others’ Code Reviews
+VII. Thou Shalt Treat Submitters How Thou Wants to Be Treated
+VIII. Thou Shalt Not Be Intimidated by the Number of Comments
+IX. Thou Shalt Not Repeat the Same Mistakes
+X. Thou Shalt Embrace the Nits
+```
+
+### Code Review in practice
+
+
+### Assisted code review
