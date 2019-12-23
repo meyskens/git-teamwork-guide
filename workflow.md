@@ -74,15 +74,20 @@ X. Thou Shalt Embrace the Nits
 
 ### Code Review in practice
 When opening a Pull Request in GitHub you can go to "Files Changed", here you can see all changes in a PR. When hovering over a line number you will see a plus icon, when you click that a box to add a comment will open.
+
 ![the box with a comment made](./images/coderev1.png)
+
 Here you can chose "Add single comment" or "Start Review" in most cases you want the second one. This starts a new review and saves the comments but will only publish them after you finished reviewing all files. This allows you to publish them all at once and delete any ones you do not need (for example if you get why a certain thing is there after reading another file).
 On the top you will now see a button "Finish Review". This allows you to add a final comment, you might want to thing about the "be kind" part here. Then "approve" or "request changes", when everything is good to go you approve the PR otherwise you request some changes to be made, after these are done the submitter of the PR can re-request your review. Note that you cannot approve your own PRs.
+
 ![finish review box](./images/coderev2.png)
 
 After posting a review you will see the status in the PR. Under "Reviewers" on the right you can also request a re-review of a previous reviewer or a new person to review your code.
+
 ![code review in PR](./images/coderev3.png)
 
 **TIP:** When writing a comment you can press the "Suggestion" button in the toolbar. This allows you do do a quick one line code change suggestion that can be applied in a single click.
+
 ![suggestion edit view](./images/corerev4.png)
 
 ### The life after code review
