@@ -95,6 +95,14 @@ If you need to make changes in your code after a code review you can just do thi
 
 
 ### Assisted code review
-// TODO: add explaining what is
+(Tool-)Assisted code review is a recent phenomenon in code review. Many small things like errors in the code, or code formatting can be detected by tools.
+When writing code we often have tests that run to tell if everything works, these tests have to work before being allowed to merge a PR into the codebase. This process is called "continuous integration".
+Since we* will mostly use HTML and CSS we cannot do much with using a CI. But there are other tools to help us! 
+You can install [Code Lookout](https://github.com/apps/code-lookout) on your GitHub repository (or all), this is a GitHub app that will review your PRs for any validation errors made in HTML and CSS and will post it as a comment.
+![Code Lookout example comment](./images/codelookout.png)
 
 ## The next branch!
+
+
+
+* this document is written for a project at Thomas More which we refer to
