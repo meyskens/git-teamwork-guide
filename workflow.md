@@ -98,3 +98,24 @@ If you need to make changes in your code after a code review you can just do thi
 // TODO: add explaining what is
 
 ## The next branch!
+When a PR gets merged (congratulations!) or you just want to move on with the next thing you need to take in account a few things.
+First of all when going back to the master branch there is a chance things changed there by work from other team members. Git doesn't automatically update from what is on GitHub, but you can do this:
+```console
+$ git checkout master # going back to the master
+$ git pull # pull in new changes and place then on your disk
+```
+If you want to start on a new branch it is always adviced to start from the "master" branch, otherwise you will have a hard time doing pull requests properly.
+
+So a full summary of branching out, making changes then going back to master for the next change:
+```console
+$ git branch maartje-add-contact-page
+$ git checkout maartje-add-contact-page
+$ touch contact.html # Example change!!! not part of the workflow
+$ git add .
+$ git commit -m "Created a contact page"
+$ git push
+$ git checkout master
+$ git pull
+```
+
+**TIP:** `git pull` also works when you are in a branch. This is needed when somebody else pushes changes there or you used the GitHub suggestion feature.
