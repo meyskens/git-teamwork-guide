@@ -88,14 +88,19 @@ After posting a review you will see the status in the PR. Under "Reviewers" on t
 
 **TIP:** When writing a comment you can press the "Suggestion" button in the toolbar. This allows you do do a quick one line code change suggestion that can be applied in a single click.
 
-![suggestion edit view](./images/corerev4.png)
+![suggestion edit view](./images/coderev4.png)
 
 ### The life after code review
 If you need to make changes in your code after a code review you can just do this on your Git branch! Just make another commit and you will see the changes appear in the PR, you will also notice that GitHub marks comments on changed lines so you can better see which comments were addressed.
+**Before merging the PR into master at least one person should have reviewed (and approved) your code!** The only exception for this is if your team counts one person. 
 
 
 ### Assisted code review
-// TODO: add explaining what is
+(Tool-)Assisted code review is a recent phenomenon in code review. Many small things like errors in the code, or code formatting can be detected by tools.
+When writing code we often have tests that run to tell if everything works, these tests have to work before being allowed to merge a PR into the codebase. This process is called "continuous integration".
+Since we* will mostly use HTML and CSS we cannot do much with using a CI. But there are other tools to help us! 
+You can install [Code Lookout](https://github.com/apps/code-lookout) on your GitHub repository (or all), this is a GitHub app that will review your PRs for any validation errors made in HTML and CSS and will post it as a comment.
+![Code Lookout example comment](./images/codelookout.png)
 
 ## The next branch!
 When a PR gets merged (congratulations!) or you just want to move on with the next thing you need to take in account a few things.
@@ -119,3 +124,5 @@ $ git pull
 ```
 
 **TIP:** `git pull` also works when you are in a branch. This is needed when somebody else pushes changes there or you used the GitHub suggestion feature.
+
+* this document is written for a project at Thomas More which we refer to
