@@ -121,4 +121,4 @@ $ git pull
 
 **TIP:** `git pull` also works when you are in a branch. This is needed when somebody else pushes changes there or you used the GitHub suggestion feature.
 
-* this document is written for a project at Thomas More which we refer to
+`* this document is written for a project at Thomas More which we refer to`
