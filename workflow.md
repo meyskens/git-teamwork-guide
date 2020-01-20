@@ -3,11 +3,6 @@
 In the past you already learned how to use GitHub and Git to do versioncontrol on your projects.  
 In this tutorial we're going one step further and use Git to allow working in team on the same codebase.
 
-## Setting up your repository
-// TODO: add base repo
-// TODO: add contributors
-
-
 ## Working with branches
 After you cloned the project on your computer we can start working on code changes. We do this in branches.
 Branches, also called feature branches, make a copy of the main code which resides on the "master" branch.
