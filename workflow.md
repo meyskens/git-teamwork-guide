@@ -29,7 +29,6 @@ This command will change your files on your hard disk to reflect those in the br
 
 You can now work as usual and use `git add` and `git commit` to commit your changes.
 You can use `git push` when on a branch to push the branch to GitHub
-// TODO: confirm you need --set-upstream
 
 A full workflow for example would be
 ```console
@@ -38,7 +37,7 @@ $ git checkout maartje-add-contact-page
 $ touch contact.html # Example change!!! not part of the workflow
 $ git add .
 $ git commit -m "Created a contact page"
-$ git push
+$ git push --set-upstream origin maartje-add-contact-page # needed first time, just use `git push` for later changes in the branch
 ```
 
 ## Pull Requests
