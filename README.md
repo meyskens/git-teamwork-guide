@@ -8,7 +8,7 @@ The guide makes use of the GitHub platform.
 
 ## Table of contents
 * [Git for teams workflow](./workflow.md)
-* [Dealing with merge conflicts](./merge-conflicts)
+* [Dealing with merge conflicts](./merge-conflicts.md)
 
 ## Useful reading material
 ### GitHub
