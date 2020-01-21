@@ -6,7 +6,7 @@ In this tutorial we're going one step further and use Git to allow working in te
 ## Working with branches
 After you cloned the project on your computer we can start working on code changes. We do this in branches.
 Branches, also called feature branches, make a copy of the main code which resides on the "master" branch.
-It is a bad practice to push directly to the "master" branch when working in teams. An exception for this rule us the first commit.
+It is a bad practice to push directly to the "master" branch when working in teams. An exception for this rule is the first commit.
 In a branch you can make one or more commits as usual, these reflect the changes to add a certain part of the code. 
 To make a new branch you can do the following using Git
 ```console
@@ -37,7 +37,7 @@ $ git push --set-upstream origin maartje-add-contact-page # needed first time, j
 
 ## Pull Requests
 
-Pull requests, also called Merge Requests in other Git solutions, are requests made to merge code from a certain branch into the "master" of the repository. You can do this after doing "git push" for the first time by going to the repository on Github and going to "Pull Requests", here you can click "New Pull Request". Sometimes GitHub will also sugest you the new branch automatically. 
+Pull requests, also called Merge Requests in other Git solutions, are requests made to merge code from a certain branch into the "master" of the repository. You can do this after doing "git push" for the first time by going to the repository on Github and going to "Pull Requests", here you can click "New Pull Request". Sometimes GitHub will also suggest you the new branch automatically. 
 ![PR suggestion dialog](./images/prsuggestion.png)
 When creating a Pull Request you can compare 2 branches, the "base" branch is the one we want to move the code into. In our case this will always be the master branch. The "compare" branch will be the branch we made our changes in. Note that you *can* push a branch without any changes made, however you can not create a pull request for these.
 ![PR screen](./images/prscreen.png)
@@ -50,7 +50,7 @@ Code review is a process that you can see everywhere, from small startups to big
 Code review in a nutshell is the process between proposing a code change (in a PR) and it being merged into the master branch, and deployed into production.
 This process allows for code to improve as more people can look at it and propose changes to the code. Bugs are spotted faster, the code will look better and more coherent and it might give you insight into how your code might be even more improved.
 
-Code reviews are an opportunity to learn for the submitter of the PR but also an oppurtinity to praise one's work for the reviewer. Important to keep in mind is to be kind to eachother, not to take reviews personally and to start with explaining why. A code review is inherently teamwork, touching on different ideas and suggestions. Sometimes it might be worth taking a discussion offline (meaning face to face) to discuss some comments. The goal here is not to be right about something but to improve as a team.
+Code reviews are an opportunity to learn for the submitter of the PR but also an opportunity to praise one's work for the reviewer. Important to keep in mind is to be kind to eachother, not to take reviews personally and to start with explaining why. A code review is inherently teamwork, touching on different ideas and suggestions. Sometimes it might be worth taking a discussion offline (meaning face to face) to discuss some comments. The goal here is not to be right about something but to improve as a team.
 
 ### The 10 Commandments of Navigating Code Reviews
 [The 10 Commandments of Navigating Code Reviews](https://techbeacon.com/app-dev-testing/10-commandments-navigating-code-reviews) is a work of [Angie Jones](https://angiejones.tech).
@@ -74,7 +74,7 @@ When opening a Pull Request in GitHub you can go to "Files Changed", here you ca
 ![the box with a comment made](./images/coderev1.png)
 
 Here you can chose "Add single comment" or "Start Review" in most cases you want the second one. This starts a new review and saves the comments but will only publish them after you finished reviewing all files. This allows you to publish them all at once and delete any ones you do not need (for example if you get why a certain thing is there after reading another file).
-On the top you will now see a button "Finish Review". This allows you to add a final comment, you might want to thing about the "be kind" part here. Then "approve" or "request changes", when everything is good to go you approve the PR otherwise you request some changes to be made, after these are done the submitter of the PR can re-request your review. Note that you cannot approve your own PRs.
+On the top you will now see a button "Finish Review". This allows you to add a final comment, you might want to think about the "be kind" part here. Then "approve" or "request changes", when everything is good to go you approve the PR otherwise you request some changes to be made, after these are done the submitter of the PR can re-request your review. Note that you cannot approve your own PRs.
 
 ![finish review box](./images/coderev2.png)
 
@@ -82,7 +82,7 @@ After posting a review you will see the status in the PR. Under "Reviewers" on t
 
 ![code review in PR](./images/coderev3.png)
 
-**TIP:** When writing a comment you can press the "Suggestion" button in the toolbar. This allows you do do a quick one line code change suggestion that can be applied in a single click.
+**TIP:** When writing a comment you can press the "Suggestion" button in the toolbar. This allows you to do a quick one line code change suggestion that can be applied in a single click.
 
 ![suggestion edit view](./images/coderev4.png)
 
@@ -103,7 +103,7 @@ When a PR gets merged (congratulations!) or you just want to move on with the ne
 First of all when going back to the master branch there is a chance things changed there by work from other team members. Git doesn't automatically update from what is on GitHub, but you can do this:
 ```console
 $ git checkout master # going back to the master
-$ git pull # pull in new changes and place then on your disk
+$ git pull # pull in new changes and place them on your disk
 ```
 If you want to start on a new branch it is always adviced to start from the "master" branch, otherwise you will have a hard time doing pull requests properly.
 
