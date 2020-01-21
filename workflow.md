@@ -37,7 +37,9 @@ $ git push --set-upstream origin maartje-add-contact-page # needed first time, j
 
 ## Pull Requests
 
-Pull requests, also called Merge Requests in other Git solutions, are requests made to merge code from a certain branch into the "master" of the repository. You can do this after doing "git push" for the first time by going to the repository on Github and going to "Pull Requests", here you can click "New Pull Request". Sometimes GitHub will also sugest you the new branch automatically. 
+Pull requests, also called Merge Requests in other Git solutions, are requests made to merge code from a certain branch into the "master" of the repository. You can do this after doing "git push" for the first time by going to the repository on Github and going to "Pull Requests", here you can click "New Pull Request".
+![Pull Requests on a GitHub repo](./image/prs.png)
+Sometimes GitHub will also sugest you the new branch automatically. 
 ![PR suggestion dialog](./images/prsuggestion.png)
 When creating a Pull Request you can compare 2 branches, the "base" branch is the one we want to move the code into. In our case this will always be the master branch. The "compare" branch will be the branch we made our changes in. Note that you *can* push a branch without any changes made, however you can not create a pull request for these.
 ![PR screen](./images/prscreen.png)
